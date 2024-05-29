@@ -1,0 +1,28 @@
+name: bhagavad_ai
+description: ভগবদ্ গীতা, গীতা নামেও পরিচিত - "ঈশ্বরের গান" হল একজনের জীবনের জন্য একটি ব্যবহারিক নির্দেশিকা যা একজনকে তাদের জীবনকে পুনঃসংগঠিত করতে, অভ্যন্তরীণ শান্তি অর্জন করতে এবং সর্বোচ্চ (চূড়ান্ত বাস্তবতার) কাছে যেতে নির্দেশিত করে। এটি সংস্কৃতের একটি 700 শ্লোক পাঠ যা মহাভারতের ভীষ্ম-পর্ব বিভাগে 23 থেকে 40 অধ্যায় নিয়ে গঠিত।
+publish_to: 'none'
+version: 1.0.2+3
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.3.8
+  get_storage: ^2.1.1
+  mailer: any
+  upi_india: ^3.0.1
+  google_gemini: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
