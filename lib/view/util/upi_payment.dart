@@ -12,8 +12,8 @@ class UpiPayment {
         UpiApp selectedApp = apps[0]; // You can change this to select a different UPI app
         UpiResponse response = await upi.startTransaction(
           app: selectedApp,
-          receiverUpiId: "amineil@paytm",
-          receiverName: 'Sagar Bhowmik',
+          receiverUpiId: "----------------------",
+          receiverName: '.......................',
           transactionRefId: 'YourTransactionId',
           transactionNote: 'Thanks for supporting! Radhe Radhe',
           amount: 100.00,

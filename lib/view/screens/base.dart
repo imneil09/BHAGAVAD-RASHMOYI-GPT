@@ -29,7 +29,7 @@ class _BaseState extends State<Base> {
     Chapters(),
     const SearchVerse(),
     const RashAi(
-      apiKey: "AIzaSyASay9wEMaHT6EdINp7uXctBP5JR5xcrJs",
+      apiKey: "AIzaSyASay9wEMaHBHJN;KJ;OJ;ONp7uXctBP5JR5xcrJs",
     ),
   ];
 
