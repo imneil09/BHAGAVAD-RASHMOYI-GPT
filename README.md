@@ -1,4 +1,4 @@
-# bhagavad_ai
+# BHAGAVAD RASHMOYI GPT
 
 A new Flutter project.
 
